@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "All done!" > /share/restic-server_addon_output.txt

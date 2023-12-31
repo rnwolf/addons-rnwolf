@@ -1,9 +1,9 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: Example add-on
+name: Restic-Server add-on
 version: "1.2.0"
-slug: example
+slug: Restic Server for HAOS HomeAssistant Operating System
 description: Example add-on
-url: "https://github.com/home-assistant/addons-example/tree/main/example"
+url: "https://github.com/rnwolf/addons-rnwolf/tree/main/restic-server"
 arch:
   - armhf
   - armv7
@@ -17,4 +17,4 @@ options:
   message: "Hello world..."
 schema:
   message: "str?"
-image: "ghcr.io/home-assistant/{arch}-addon-example"
+#image: "ghcr.io/rnwolf/{arch}-addon-restic-server"
