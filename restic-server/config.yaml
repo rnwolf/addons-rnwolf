@@ -1,7 +1,7 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Restic-Server add-on
 version: "1.2.0"
-slug: Restic Server for HAOS HomeAssistant Operating System
+slug: restic-server
 description: Example add-on
 url: "https://github.com/rnwolf/addons-rnwolf/tree/main/restic-server"
 arch:
