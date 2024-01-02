@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Restic-Server add-on
 version: "1.3.0"
@@ -18,3 +19,25 @@ options:
 schema:
   message: "str?"
 #image: "ghcr.io/rnwolf/{arch}-addon-restic-server"
+=======
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: Restic-Server add-on
+version: "1.2.0"
+slug: restic-server
+description: Example add-on
+url: "https://github.com/rnwolf/addons-rnwolf/tree/main/restic-server"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+map:
+  - share:rw
+options:
+  message: "Hello world..."
+schema:
+  message: "str?"
+image: "ghcr.io/rnwolf/addons-rnwolf/{arch}-addon-restic-server"
+>>>>>>> acabf53bbb42c0148fd3c9cfdafa08adb63e0025
