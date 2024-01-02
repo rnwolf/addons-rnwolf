@@ -17,4 +17,4 @@ options:
   message: "Hello world..."
 schema:
   message: "str?"
-image: "ghcr.io/rnwolf/{arch}-addon-restic-server"
+image: "ghcr.io/rnwolf/restic-server/{arch}-addon-restic-server"
